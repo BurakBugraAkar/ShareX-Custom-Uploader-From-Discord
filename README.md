@@ -41,8 +41,9 @@ https://ryuk.fun/04hiyqqpW.png
 #information
 ```cmd
 1. Works with Express server.
-2. This project supports ES Next
-3. Required modules discord.js, express, request, shortid, wio.db
+2. Main file is api.mjs
+3. This project supports ES Next.
+4. Required modules discord.js, express, request, shortid, wio.db.
 ```
 
 #Updates
