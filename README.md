@@ -6,10 +6,10 @@ First
 npm install || npm i || npm i discord.js, express, request, shortid, wio.db
 ```
 
-EN
+EN | 
 ShareX will save the pictures you have taken with discord and show them through your own site.
 
-TR
+TR | 
 ShareX ile çekmiş olduğunuz resimleri discorda kaydederek kendi siteniz aracılığı ile gösterir.
 
 
