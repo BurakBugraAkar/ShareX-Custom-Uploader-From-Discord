@@ -1,0 +1,12 @@
+﻿{
+  "Version": "13.5.0",
+  "Name": "ShareX-Custom-Uploader-From-Discord",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://your domain/upload",
+  "Headers": {
+    "api_key": "your pass"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "sampleFile"
+}
