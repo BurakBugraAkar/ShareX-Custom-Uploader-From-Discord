@@ -12,7 +12,7 @@ TR
 ShareX ile çekmiş olduğunuz resimleri discorda kaydederek kendi siteniz aracılığı ile gösterir.
 
 
-```json
+```js
 config.js
 {
     "port": "80", -> Express server port
