@@ -1,8 +1,9 @@
 # ShareX-Custom-Uploader-From-Discord
 
 ```shell
-Firstly
-npm install
+First
+
+npm install || npm i || npm i discord.js, express, request, shortid, wio.db
 ```
 
 EN
