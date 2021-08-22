@@ -13,7 +13,7 @@ ShareX ile çekmiş olduğunuz resimleri discorda kaydederek kendi siteniz arac�
 
 
 ```js
-config.js
+File -> config.js
 {
     "port": "80", -> Express server port
     "api_key": "pass", -> ShareX post password
