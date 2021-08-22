@@ -44,6 +44,7 @@ https://ryuk.fun/04hiyqqpW.png
 2. Main file is api.mjs
 3. This project supports ES Next.
 4. Required modules discord.js, express, request, shortid, wio.db.
+5. Ready_Config.sxcu is for İt is ready ShareX program config.
 ```
 
 #Updates
