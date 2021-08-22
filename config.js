@@ -1,7 +1,7 @@
 export default
 {
     "port": "80",
-    "api_key": "ryukakar",
+    "api_key": "pass",
     "discord_bot_token": "token",
     "guild": {
         "id": "guild_id",
