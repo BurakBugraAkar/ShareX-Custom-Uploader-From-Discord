@@ -28,7 +28,7 @@ app.post('/upload', function (req, res) {
     hook.send(atac).then(a => {
         console.log(filename)
         db.set(filename, a.attachments[0].url)
-        console.log(req)
+        //console.log(req)
         res.send(`http://${req.headers.host}/images/${filename}`)
         let embed = new Discord.MessageEmbed()
             .setColor("2f3136")
