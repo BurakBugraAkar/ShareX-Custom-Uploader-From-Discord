@@ -4,7 +4,6 @@ import express from 'express';
 import request from'request';
 import fileUpload from 'express-fileupload';
 const app = express();
-import sh from 'shortid';
 import config from "./config.js"
 import { JsonDatabase } from "wio.db";
 const db = new JsonDatabase({ databasePath:"./images.json" });

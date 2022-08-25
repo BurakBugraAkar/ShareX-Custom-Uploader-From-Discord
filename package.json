@@ -8,10 +8,8 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.2.1",
     "request": "^2.88.2",
-    "shortid": "^2.2.16",
     "wio.db": "^4.0.21"
   },
-  "devDependencies": {},
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
