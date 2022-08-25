@@ -4,6 +4,7 @@ import express from 'express';
 import request from'request';
 import fileUpload from 'express-fileupload';
 const app = express();
+import { generate } from './functions/shortid.mjs'
 import config from "./config.js"
 import { JsonDatabase } from "wio.db";
 const db = new JsonDatabase({ databasePath:"./images.json" });
@@ -17,7 +18,7 @@ app.post('/upload', function (req, res) {
     if(req.header("api_key")!==config.api_key) return res.sendStatus(403);
     if (!req.files) return res.status(400).send('No files were uploaded.');
     let sampleFile = req.files.sampleFile;
-    let filename = sh.generate();
+    let filename = generate();
     const atac = new Discord.MessageAttachment(sampleFile.data)
     hook.send(atac).then(a => {
         db.set(filename, a.attachments[0].url)
